@@ -1,5 +1,5 @@
 import axios from 'axios'
-export default () => {
+const hi = () => {
   return async function (dispatch) {
     const data = await axios.get(
       'https://coronavirus-19-api.herokuapp.com/countries'
@@ -10,6 +10,7 @@ export default () => {
     })
   }
 }
+export default hi
 /*
 export const fetchPosts = () => async (dispatch) => {
   const response = await jsonPlaceholder.get('/posts')
