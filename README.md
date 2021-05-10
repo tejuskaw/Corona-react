@@ -1,3 +1,16 @@
+
+<h1> CORONA LIVE DETECTOR </h1>
+# hi , i am tejus and this app is made with an api , react js , react-redux , redux , react-thunder for api calls , and bootstrap cdn link..
+this is simple app in process to learn the redux with react...
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
