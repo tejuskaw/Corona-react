@@ -14,6 +14,10 @@ class Table extends Component {
     this.props.fetch()
     this.send()
   }
+  componentDidUpdate() {
+    this.props.fetch()
+    this.send()
+  }
   renderElement() {
     if (this.props.data.data.data) {
       return this.props.data.data.data.map((e, index) => {
